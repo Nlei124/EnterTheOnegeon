@@ -653,7 +653,7 @@ namespace EnterTheOnegeon
 
         private ShootingEnemy GetShootingEnemy()
         {
-            for (int i = 0; i < walkEnemyList.Count; i++)
+            for (int i = 0; i < shootEnemyList.Count; i++)
             {
                 if (shootEnemyList[i].Active == false)
                     return shootEnemyList[i];
